@@ -1,5 +1,5 @@
 .hero{
-	width: 600px;
+	width: 800px;
 	height: 400px;
 	display: flex;
 	justify-content: center;
@@ -11,10 +11,19 @@
 	height: 250px;
 	object-fit: cover;
 	overflow: hidden;
-	flex: 2;
+	flex: 3;
 }
 
 .text{
-	flex:1;
+	padding: 10px;
+	flex:2;
+	text-align: center;
 }
 
+button{
+	background-color: #fe0000;
+	border: 2px solid #fe0000;
+	border-radius: 3px;
+	padding: 8px;
+	color: white;
+}
